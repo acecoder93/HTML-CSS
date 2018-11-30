@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox Layout 1</title>
+
+    <style>
+        .parent{
+            height: 100vh;
+            width: 100vw;
+            text-align: center;
+
+        }
+        header{
+            display: flex;
+            width: 100%;
+            height: 10%;
+            background-color: red;
+            flex-direction:column;
+            justify-content: center;
+            align-content:flex-start
+        }
+
+        .column1{
+            display: flex;
+            width: 30%;
+            height: 80%;
+            float: left;
+            background-color: aqua;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .column2{
+            display: flex;
+            width: 65%;
+            height: 70%;
+            background-color: green;
+            float:right;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+        }
+        .footer{
+            display: flex;
+            width: 100%;
+            height: 10%;
+            flex-direction: column-reverse;
+            justify-content: center;
+            background-color: goldenrod;
+            align-content: flex-start;
+
+        }
+    
+    
+    </style>
+
+</head>
+<body>
+    <div class="parent">
+        <header>Header</header>
+        <div class="column1">Column 1</div>
+        <div class="column2">Column 2</div>
+        <div class="footer">Footer</div>
+    </div>
+        
+    
+</body>
+</html>

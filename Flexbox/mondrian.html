@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mosaic</title>
+    <link rel="stylesheet" href="normalize.css">
+
+    <style>
+        .parent{
+            display: flex;
+            height: 75vh;
+            width: 90vw;
+            border: solid black 8px;
+            box-sizing: content-box;
+            flex-wrap: wrap;
+        }
+
+        .row{
+            display: flex;
+            flex-direction: row;
+            width: 15%;
+            height: 7%;
+            border: solid black 4px;
+        }
+
+        .column{
+            width: 8%;
+            height: 15%;
+            border: solid black 4x;
+            flex-direction: column;
+        }
+
+        .smallSquare{
+            display: flex;
+            flex-direction: row;
+            width: 15%;
+            height: 14%;
+            border: solid black 4px;
+        }
+
+        .yellow{
+            background-color: yellow;
+        }
+
+        .blue{
+            background-color:rgb(111, 111, 236)
+        }
+    
+    
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row yellow"></div>
+        <div class="smallSquare blue"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+
+
+
+
+
+
+    </div>
+    
+</body>
+</html>

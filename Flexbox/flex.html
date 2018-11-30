@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            height: 800px; 
+            /* Note: height should be defined in parent container to allow for relative positioning and alignment. */
+            /* justify-content: center;
+            align-items: baseline; */
+            background-color: honeydew;
+            /* flex-wrap: wrap */
+        }
+
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            line-height: 200px;
+            text-align: center;
+            margin: 10px;
+            color: white;
+            font-size: 50px;
+            font-weight: bold;
+            display: inline;
+        }
+
+        .box1{
+            width: 200px;
+            height: 100px;
+            background-color: gold;
+            line-height: 200px;
+            text-align: center;
+            margin: 10px;
+            color: white;
+            font-size: 50px;
+            font-weight: bold;
+            display: inline;
+        }
+
+        .box2{
+            width: 200px;
+            height: 300px;
+            background-color: orange;
+            line-height: 200px;
+            text-align: center;
+            margin: 10px;
+            color: white;
+            font-size: 50px;
+            font-weight: bold;
+            display: inline;
+        }
+        
+        .order1{
+            order: 1
+        }
+
+        .order2{
+            order: 2
+        }
+
+        .order3{
+                order: 3
+            }
+        
+        .order4{
+            order: 4
+        }
+
+        .flexgrow2{
+            flex-grow: 2;
+
+        }
+
+
+
+        /* .textContainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            height: 500px;
+            width: 500px;
+            background-color: yellow;
+
+        }
+        
+        .text{
+            background-color: green;
+            font-size: 20px;
+            text-align: center;
+
+        } */
+
+    </style>
+
+</head>
+<body>
+    <!-- <div class="textContainer">
+        <div class="text">
+            Here
+        </div>
+    </div> -->
+    <div class="container">
+        
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box flexgrow2">3</div>
+        <div class="box">4</div>
+        <!-- <div class="box">5</div>
+        <div class="box">5</div>
+        <div class="box">5</div>
+        <div class="box">5</div>
+        <div class="box">5</div>
+        <div class="box">5</div>
+        <div class="box">5</div> -->
+        
+    </div>
+    
+</body>
+</html>
