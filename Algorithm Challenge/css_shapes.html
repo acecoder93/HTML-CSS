@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Shapes</title>
+    <style>
+
+        .parent{
+            display: flex;
+            justify-content: space-around;
+            margin: 50px;
+        }
+
+        .square{
+            background-color: red;
+            width: 50px;
+            height: 50px;
+            border: solid black 1px;
+        }
+
+        .rectangle{
+            background-color: blue;
+            width: 100px;
+            height: 50px;
+            border: solid black 1px;
+        }
+
+        .oval{
+            background-color: red;
+            width: 50px;
+            height: 100px;
+            border: solid black 1px;
+            border-radius: 80%;
+        }
+
+        .circle{
+            background-color: aqua;
+            width: 50px;
+            height: 50px;
+            border: solid black 1px;
+            border-radius: 50%;
+        }
+
+        .triangleDown{
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-top: 100px solid violet;
+        }
+
+        .triangleLeft{
+            width: 0px;
+            height: 0px;
+            border-top: 50px solid transparent;
+            border-right: 100px solid goldenrod;
+            border-bottom: 50px solid transparent;
+        }
+
+        .rightTriangle{
+            width: 0;
+            height: 0;
+            border-left: 0px solid transparent;
+            border-right: 100px solid transparent;
+            border-bottom: 100px solid turquoise;
+        }
+
+        .trapezoid{
+            width: 65px;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid firebrick;
+        }
+
+        .star{
+
+
+        }
+
+        .squareDiamond{
+            width: 100px;
+            height: 100px;
+            background-color: rebeccapurple;
+            transform: rotate(45deg);
+        }
+
+        /* .pacparent{
+            background-color: yellow;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: relative;
+            }
+        .pacchild{
+            background-color: white;
+            width: 0;
+            height: 0;
+            border-bottom: 50px solid white;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            position: abosolute;
+        } */
+
+        .pacman{
+            width: 0px;
+            height: 0px;
+            border-right: 60px solid transparent;
+            border-top: 60px solid yellow;
+            border-left: 60px solid yellow;
+            border-bottom: 60px solid yellow;
+            border-radius: 50%
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+            <div class="square"></div>
+            <div class="rectangle"></div>
+            <div class="oval"></div>
+            <div class="circle"></div>
+            <div class="triangleDown"></div>
+            <div class="triangleLeft"></div>
+            <div class="rightTriangle"></div>
+            <div class="trapezoid"></div>
+            <div class="squareDiamond"></div>
+            <div class="pacman"></div>
+
+
+    </div>
+    
+    
+</body>
+</html>

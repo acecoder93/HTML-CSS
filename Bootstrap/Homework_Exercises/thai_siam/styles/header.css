@@ -1,0 +1,47 @@
+.fontLarge{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.fontMedium{
+    font-size: 18px;
+    padding: 5px
+}
+
+.borderRight{
+    border-right: solid black 1px
+}
+
+.circle{
+    border-radius: 50%;
+    border: solid black 1px;
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 30px;
+    margin: 0 0 23px 0;
+    }
+
+ h4, h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
+
+
+
+.textRed{
+    color: red
+}
+
+.textGray{
+    color: gray
+}
+
+.textWhite{
+    color:white
+}

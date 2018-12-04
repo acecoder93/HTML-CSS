@@ -1,0 +1,65 @@
+/* Background colors */
+.bRed{
+    background-color: red;
+    border: solid #666666 3px;
+    
+}
+
+.bYellow{
+    background-color: yellow;
+    border: solid #666666 3px;
+
+    
+}
+
+.bGreen{
+    background-color: green;
+    border: solid #666666 3px;
+
+    
+}
+.bWhite{
+    background-color: white;
+    border: solid #666666 3px;
+
+    
+}
+.bBlue{
+    background-color: blue;
+    border: solid #666666 3px;
+
+    
+}
+.bBlack{
+    background-color: black;
+    border: solid #666666 3px;
+
+}
+
+/* border styles */
+.borderAll{
+    border: solid #666666 3px;
+}
+
+.borderNone{
+    border: none;
+}
+
+.borderLeft{
+    border-left: solid #666666 3px;
+}
+
+.borderRight{
+    border-right: solid #666666 3px;
+}
+
+.borderTop{
+    border-top: solid #666666 3px;
+}
+
+.borderBottom{
+    border-bottom: solid #666666 3px;
+}
+
+
+

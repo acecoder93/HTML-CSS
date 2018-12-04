@@ -1,0 +1,36 @@
+header{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay{
+    background-color: black;
+    position: aboslute;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    opacity: .5
+}
+.video{
+    z-index: 10
+    
+}
+
+/* headerTextPArent container must be flex so children within it can be aligned. This allows flex properties to be ussed */
+.headerTextParent{
+    position: aboslute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 30;
+}
+
